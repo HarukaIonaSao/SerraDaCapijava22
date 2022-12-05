@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+.tab{
+  font-family: 'Josefin Sans',sans-serif !important; 
+}
+
+.fundoInicial{
+  width: 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://i.imgur.com/X7TJC5E.png);
+  display: flex;
+  align-items: center;
+}
+
+.logoNav{
+  margin: 2rem;
+}
+
+.grid2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.textosInicial{
+  background-color: #F2EBDF;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+}
+
+.bemVindo{
+  font-size: 3.4rem !important;
+  font-family: 'Josefin Sans',sans-serif !important;
+  color: #02732A;
+  padding-bottom: 2rem;
+}
+
+.textoInicial{
+  font-size: 1.2rem !important;
+  color: #595959;
+  font-family: "Hind Guntur Light", sans-serif !important;
+  padding-bottom: 1rem;
+}
+
+.imgBemVindo:hover{
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+
+.imgBemVindo{
+  width: 35rem;
+}
+
+.grid3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.text-decorator-none{
+  text-decoration: none !important;
+}
+
+.tituloCard{
+  font-family: 'Merriweather',sans-serif !important;
+  color:  #e9845d !important;
+  font-weight: bold !important;
+}
+
+.textoCard{
+  font-family: "Hind Guntur Light", sans-serif !important;
+}
+
+.btnAtualizar{
+  color: white !important;
+  background-color: #02732A !important;
+}
+
+.botao{
+  background-color: white !important;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+.titulo{
+    font-weight: bold;
+ }
+
+ .appbar{
+   margin-bottom: 1rem;
+    background-color: #F2C894 !important;
+    color: white !important;
+ }

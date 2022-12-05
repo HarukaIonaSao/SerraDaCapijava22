@@ -1,0 +1,17 @@
+.topo{
+    margin-top: 15rem;
+}
+
+.textoForm{
+    color: #02732A;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.btnFinalizar{
+    background-color: #F2C894 !important;
+}
+
+.btnFinalizar:disabled{
+    background-color: lightgray !important;
+}
+

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family= Merriweather & display = swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap");
+.titulos {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  padding: .5rem;
+  margin: 2rem 0!important;
+  font-size: 2rem !important;
+  font-family: "Josefin Sans", sans-serif !important;
+  color: #dda25b;
+  background-color: #F2EBDF;
+  
+}
+
+.boxFoto1 p {
+  font-family: "Hind Guntur Light", sans-serif !important;
+}
+
+.boxFoto1 {
+  align-items: center;
+  padding: 2px;
+  display: flex;
+}
+
+.boxFoto1 p {
+  font-family: "Hind Guntur Light", sans-serif !important;
+}
+
+.SegundoParagrafo {
+  font-family: "Hind Guntur Light", sans-serif !important;
+}
+
+.texto1{
+  font-family: "Hind Guntur Light", sans-serif !important;
+  text-align: justify;
+}
+
+.imgBox1 {
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
+}
+
+.boxFoto2 {
+  align-items: center;
+  padding: 2px;
+  display: flex;
+}
+.boxFoto2 p {
+  font-family: "Hind Guntur Light", sans-serif !important;
+}
+
+.imgBox2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.imgEquipe {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.card {
+  display: block;
+}
+
+.box-card {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  gap: 10px;
+}
+
+.front,
+.back {
+  width: 130px;
+  height: 200px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: relative;
+  top: 0;
+  border-radius: 8px;
+  transition: transform 0.6s linear;
+  font-family: "Josefin Sans", sans-serif;
+}
+.back {
+  position: absolute;
+}
+
+.front img {
+  height: 100%;
+}
+
+.front {
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.back {
+  background: linear-gradient(45deg, #f2ebdf 20%, #f2c894 70%);
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.back-content {
+  font-size: 10px;
+  color: #595959;
+  text-align: center;
+  width: 70%;
+}
+
+.icons {
+  margin: 20px 0;
+}
+
+.icons a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 50%;
+  color: #595959;
+  transition: 0.4s;
+}
+
+.icons a:hover {
+  background-color: #f5deb3;
+  color: #595959;
+}
+
+.card:hover > .front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back {
+  transform: perspective(600px) rotateY(0deg);
+}

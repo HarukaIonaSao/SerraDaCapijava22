@@ -1,0 +1,27 @@
+
+.barra{
+    background-color: #f27544;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.textos{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.typo{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    cursor: pointer;
+    font-family: 'Merriweather', sans-serif !important;
+    font-size: 1.9rem;
+    text-align: center !important;
+}
+
+.text-decorator-none{
+    text-decoration: none;
+}

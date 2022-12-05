@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap%27');
+
+.caixa{
+  background-color: #EFF6FB;
+} 
+
+.titulo{
+  color: #F18F01 !important;
+  font-weight: bold !important;
+  font-family: 'Merriweather',sans-serif !important;
+} 
+
+
+.subtitulo{
+  color: #595959 !important;
+  font-weight: bold !important;
+  font-family: 'Josefin Sans',sans-serif !important; 
+}
+
+.botao{
+  border-color: white !important;
+  background-color: #F2C894 !important;
+  color: black !important;
+}
+
+.postagens{
+  background-color: white !important;
+}
+
+.voceSabia {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  padding: .5rem;
+  margin: 2rem 0!important;
+  font-size: 1.5rem !important;
+  font-family: "Josefin Sans", sans-serif !important;
+  color: #dda25b;
+  background-color: #F2EBDF;
+
+}
+
+.tab{
+  font-family: 'Josefin Sans',sans-serif !important; 
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 0px !important;
+  gap: 5rem;
+  width: 80%;
+  padding: 5px;
+  padding-left: 5px;
+  position: relative;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.tituloCar{
+  font-family: 'Josefin Sans',sans-serif !important;
+  color: #D2B298;
+  text-align: center;
+}
+
+.textoCar{
+  font-family: "Hind Guntur Light", sans-serif !important;
+  text-align: justify;
+  color: #595959;
+}
+
+.banner{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.imgur.com/vgPr1su.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.alice-carousel__wrapper { 
+  height: 360px !important;
+}

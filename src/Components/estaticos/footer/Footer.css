@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.box1{
+    background-color: #F27544; 
+    height: 100px
+}
+
+.box2{
+    background-color: #02732A;
+    height: 60px
+}
+
+.redesFooter{
+    font-size: 40px;
+    color: white;
+    padding-right: 0.5rem
+}
+
+.textos{
+    color: white;
+    text-align: center;
+font-family: 'Josefin Sans ', sans-serif !important;
+}

@@ -1,0 +1,48 @@
+.imagem2{
+    background-image: url(https://i.imgur.com/5IrwQnJ.png);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: 70%;
+    background-position: center;
+  
+}
+
+.fundoCadastro {
+    background-image: url("https://i.imgur.com/Yw0sdrk.png") !important;
+    background-size: cover;
+  }
+
+.textos2{
+    font-weight: bold !important;
+}
+
+.btnCancelar{
+    margin-right: 1vw !important;
+    background-color: #F2C894 !important;
+}
+
+.btnCadastro{
+    background-color: #02732A !important;
+    color: white
+}
+
+.btnCadastro:disabled{
+    background-color: lightgray !important;
+  }
+
+.text-decorator-none{
+    text-decoration:none ;
+}
+
+.corFundo {
+    display: flex;
+    margin-right: 2rem!important;
+    background-color: #F2EBDF;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    background-size: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
